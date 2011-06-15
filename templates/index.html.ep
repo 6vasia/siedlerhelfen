@@ -15,6 +15,7 @@
 <%= link_to proviant => begin %>Провиант<% end %><br>
 <%= link_to trade => begin %>Торговать<% end %><br>
 <%= link_to specialist => begin %>Геологи<% end %><br>
+<%= link_to invite => begin %>Инвайты<% end %><br>
 <%= link_to logout => begin %>Выход<% end %>
 <hr>
 <h2>Новости</h2>

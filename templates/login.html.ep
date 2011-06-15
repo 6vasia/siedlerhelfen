@@ -16,6 +16,8 @@
 <%= password_field 'pass' %><br>
 Почта (для отчета, опционально):<br>
 <%= text_field 'email' %><br>
+Инвайт (если есть):<br>
+<%= text_field 'inv' %><br>
 <%= submit_button 'Login' %>
 <% end %>
 

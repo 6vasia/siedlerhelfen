@@ -1,0 +1,8 @@
+% layout 'default';
+% title 'Siedlerhelfen::Invite';
+<table border=0>
+<tr><th>Код инвайта</th><th>Использован</th></tr>
+% for (@$inv) {
+<tr><td><%= $_->{code} %></td><td><%= $_->{invitee} || "<free>" %></td></tr>
+% }
+</table>
