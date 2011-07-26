@@ -2,17 +2,6 @@
 % title 'Siedlerhelfen::Queue';
 % my %status = (F => 'Закончил', Q => 'В очереди', R => 'Работает');
 % my %ecode = ('0' => 'Без ошибки', '-1' => 'Ошибка входа', '-2' => 'Скончался в муках');
-<%= javascript begin %>
-function expand(obj_id){
-    var obj = document.getElementById(obj_id);
-    if (obj.style.display === 'none'){
-        obj.style.display = 'block';
-    }
-    else {
-        obj.style.display = 'none';
-    }
-}
-<% end %>
 <table border="1" cellspacing="1" cellpadding="5" width="100%">
 <col /><col /><col /><col /><col width="50%" />
 <tr><th>Время</th><th>Задание</th><th>Статус</th><th>Код ошибки</th><th>Лог</th></tr>

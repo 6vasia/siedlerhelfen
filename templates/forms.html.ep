@@ -1,0 +1,8 @@
+<div style='cursor: pointer' onclick='expand("sheduler")'><u>Планировщик</u></div>
+<div id='sheduler'>
+<table border=0>
+<tr><td>Отложить на </td><td><%= text_field 'time' => '0' %></td><td>минут</td></tr>
+<tr><td>Повторять каждые</td><td><%= text_field 'rep' => '' %></td><td>минут</td></tr>
+</table><hr />
+</div>
+<script>expand('sheduler')</script>

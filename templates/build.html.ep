@@ -1,6 +1,7 @@
 % layout 'default';
 % title 'Siedlerhelfen::Build';
 <%= form_for build => begin %>
+<%= include 'forms' %>
 <%= hidden_field b => 1 %>
 <%= submit_button 'КОПАТЬ' %>
 <% end %>

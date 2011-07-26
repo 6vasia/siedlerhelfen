@@ -10,6 +10,7 @@
     );
 %>
 <%= form_for proviant => begin %>
+<%= include 'forms' %>
 <table border=0>
 % for (keys %$prod){
 <tr><td><img src='/images/<%= $icons{$_}%>' /></td><td><%= $prod->{$_} %></td><td><%= input_tag $_ => '0' %></td></tr>

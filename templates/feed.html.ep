@@ -2,6 +2,7 @@
 % title 'Siedlerhelfen::Feed';
 <% unless ( param 'deposit' ) { %>
 <%= form_for feed => begin %>
+<%= include 'forms' %>
 <%= radio_button deposit => 'Fish' %>Рыба<br>
 <%= radio_button deposit => 'Meat' %>Мясо<br>
 <%= submit_button 'ЖРАТ' %>
